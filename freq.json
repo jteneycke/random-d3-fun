@@ -1,0 +1,88 @@
+[{
+    "letter": "aluminum",
+    "frequency": 1
+}, {
+    "letter": "black plastic laminate veneer",
+    "frequency": 1
+}, {
+    "letter": "canvas",
+    "frequency": 1
+}, {
+    "letter": "chrome-plated steel",
+    "frequency": 1
+}, {
+    "letter": "chromed metal",
+    "frequency": 2
+}, {
+    "letter": "leather",
+    "frequency": 2
+}, {
+    "letter": "masonite",
+    "frequency": 1
+}, {
+    "letter": "metal",
+    "frequency": 6
+}, {
+    "letter": "painted wood",
+    "frequency": 1
+}, {
+    "letter": "plastic",
+    "frequency": 1
+}, {
+    "letter": "rubber",
+    "frequency": 6
+}, {
+    "letter": "steel",
+    "frequency": 1
+}, {
+    "letter": "vinyl",
+    "frequency": 1
+}, {
+    "letter": "white metal",
+    "frequency": 1
+}, {
+    "letter": "wood",
+    "frequency": 3
+}, {
+    "letter": "wool",
+    "frequency": 1
+}, {
+    "letter": "ash plywood",
+    "frequency": 1
+}, {
+    "letter": "birch plywood",
+    "frequency": 2
+}, {
+    "letter": "enameled metal",
+    "frequency": 1
+}, {
+    "letter": "fiberglass",
+    "frequency": 2
+}, {
+    "letter": "laminated plywood",
+    "frequency": 1
+}, {
+    "letter": "molded plywood",
+    "frequency": 2
+}, {
+    "letter": "molded rosewood plywood",
+    "frequency": 1
+}, {
+    "letter": "molded walnut plywood",
+    "frequency": 1
+}, {
+    "letter": "plastic reinforced with fiberglass",
+    "frequency": 1
+}, {
+    "letter": "plywood",
+    "frequency": 3
+}, {
+    "letter": "rosewood",
+    "frequency": 1
+}, {
+    "letter": "rubber-coated metal",
+    "frequency": 1
+}, {
+    "letter": "walnut",
+    "frequency": 1
+}]
