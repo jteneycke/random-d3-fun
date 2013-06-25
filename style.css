@@ -1,0 +1,35 @@
+@import url(http://fonts.googleapis.com/css?family=Stardos+Stencil);
+
+body {
+  font-family: 'Stardos Stencil', cursive;
+  position: relative;
+  width: 960px;
+  color: white;
+  background-image: url('wood-texture.jpg');
+}
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: black;
+  fill-opacity: .9;
+}
+
+.x.axis path {
+  display: none;
+}
+
+label {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
