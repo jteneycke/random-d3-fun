@@ -12,6 +12,12 @@ body {
   font: 10px sans-serif;
 }
 
+.x.axis g text {
+  -webkit-transform: rotate(90deg);
+  font-size: 1em;
+}
+
+
 .axis path,
 .axis line {
   fill: none;

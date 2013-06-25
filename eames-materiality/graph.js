@@ -1,6 +1,7 @@
-var margin = {top: 20, right: 20, bottom: 30, left: 40},
+var margin = {top: 120, right: 20, bottom: 100, left: 40},
     width = 1200 - margin.left - margin.right,
-    height = 550 - margin.top - margin.bottom;
+    height = 500 - margin.top - margin.bottom,
+    x_label_height = 600 - margin.top - margin.bottom;
 
 var formatPercent = d3.format("d");
 
@@ -36,15 +37,11 @@ d3.json("freq.json", function(error, data) {
 
   svg.append("g")
       .attr("class", "x axis")
-      .attr("transform", "translate(0," + height + ")")
+      .attr("transform", "translate(0," + x_label_height + ")")
       .call(xAxis)
-        .selectAll("text")
+        .selectAll("text")  
         .style("text-anchor", "end")
-        .attr("dx", "-.8em")
-        .attr("dy", ".15em")
-        .attr("transform", function(d) {
-          return "rotate(50)"
-        });
+        .attr("dy", ".35em");
         
   svg.append("g")
       .attr("class", "y axis")
@@ -53,7 +50,7 @@ d3.json("freq.json", function(error, data) {
       .attr("transform", "rotate(-90)")
       .attr("y", 6)
       .attr("dy", ".71em")
-      .style("text-anchor", "end")
+      .style("text-anchor", "start")
       .text("Frequency");
 
   svg.selectAll(".bar")
