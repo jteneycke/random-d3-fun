@@ -13,3 +13,5 @@ $ python -m SimpleHTTPServer
 ```
 
 Go to ```localhost:8000``` in your browser and soak up them bar charts!
+
+Edit ftw!
